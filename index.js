@@ -3,7 +3,7 @@ const {connection} = require("./db")
 const {userRouter} = require("./routes/user.routes") 
 const {UserModel}  =require("./model/user.model")
 const {noteRouter} = require("./routes/Note.routes") 
-const {authonticate} = require("./middlewares/authonticate.middlewares")
+const {authonticate} = require("./middleware/authonticate.middleware")
 
 const cors=require("cors")
 
